@@ -1,0 +1,25 @@
+body{
+    height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+section{
+    padding: 20px 0;
+    text-align: center;
+    width: 400px;
+    height: 600px;
+    background-color: gainsboro;
+}
+.income-section, .expense-section{
+    padding: 0 55px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#calculate-btn{
+    padding: 20px 65px;
+    background-color: plum;
+    border: none;
+}
